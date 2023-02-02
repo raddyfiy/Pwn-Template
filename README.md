@@ -37,7 +37,7 @@ source ~/.bashrc
 
 ### 4. 使用：  
 
-新建一个空目录，把想要pwn的文件放进去：  
+新建一个空目录，把想要pwn的文件放进去：（目录下只能有一个文件）  
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113014.png)
 
 执行gys：
