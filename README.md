@@ -29,7 +29,7 @@ alias gys='FILE=$(ls);chmod 777 ./*;checksec ./*;cp /home/yurika/pwnlibc/basetoo
  
 这一句的效果是，如果我们在目标程序的目录里输入gys，会执行以下操作：  
 
-赋予程序777权限；执行checksec；把basetools的文件都复制过来；把解题模板里的程序名体替换成真实的程序名；用sublime打开exp文件；
+赋予程序777权限；执行checksec；把basetools的文件都复制过来；把解题模板里的program程序名体替换成真实的程序名；用sublime打开exp文件；  
 可以根据实际需要修改  
 
 ### 3. 生效： 
@@ -40,7 +40,7 @@ source ~/.bashrc
 新建一个空目录，把想要pwn的文件放进去：  
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113014.png)
 
-执行GYS：
+执行gys：
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113059.png)
 
 ## 二、使用方法-模板的使用
@@ -51,12 +51,12 @@ libclist：前面的libc是写死的，要根据你的实际情况修改。最�
 libcindex： 根据下面的libclist列表，选择索引。其中-1表示使用系统libc  
 isremote： 0：本地pwn；非0：远程pwn  
 
-然后就可以愉快的写代码了。函数的短别名可以参考代码里的。
+然后就可以愉快的写代码了。函数的短别名可以参考代码里的。  
 
 
 
 # RGB的其他项目：
 https://github.com/RGBTeam/ctf-RGB-wiki
 
-
+交流QQ:  8518460  ,  备注github
 
