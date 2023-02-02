@@ -1,10 +1,11 @@
 # Pwn-Template    [RGB-TEAM出品]
-Pwn Solve Template   v1.0   
-##功能介绍：
+Pwn Solve Template   v1.0    
+## 功能介绍：
 自动填写程序名与识别系统libc；   
 自动获取onegadget列表；  
 自动获取程序架构；  
-堆题栈题通用；  
+堆题栈题通用； 
+ubuntu全版本通用（其他环境没测试）
 支持程序爆破；  
 远端和本地方便切换，libc方便切换，把精力集中在程序本身；  
 调试器支持，使用ida()即可等待ida链接，建议配合https://github.com/anic/ida2pwntools使用 
@@ -15,6 +16,8 @@ Pwn Solve Template   v1.0
 ## 一、使用方法-建议环境准备：　　
 ### 1.　把模板和其他常用文件放到/home/yurika/pwnlibc/basetools/ 文件夹（根据实际修改），例如：  
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_111230.png)
+ 
+注意，如果你提前准备的常用libc版本和我的不一样， 需要手动修改模板里的libclist。
 
 ### 2. sudo vim ~/.bashrc   
 
@@ -40,6 +43,14 @@ source ~/.bashrc
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113059.png)
 
 ## 二、使用方法-模板的使用
+打开模板后，首先修改最下面的main函数，修改三个地方：  
+
+args1：传入参数，没有就不用修改。参数超过一个，就自行添加变量args2、args3……  
+libclist：前面的libc是写死的，要根据你的实际情况修改。最后一个是本地libc，自动识别，无需修改  
+libcindex： 根据下面的libclist列表，选择索引。其中-1表示使用系统libc  
+isremote： 0：本地pwn；非0：远程pwn  
+
+然后就可以愉快的写代码了。函数的短别名可以参考代码里的。
 
 
 
