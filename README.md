@@ -1,6 +1,18 @@
 # Pwn-Template    [RGB-TEAM出品]
-Pwn Solve Template    
-## 使用方法：　　
+Pwn Solve Template   v1.0   
+##功能介绍：
+自动填写程序名与识别系统libc；   
+自动获取onegadget列表；  
+自动获取程序架构；  
+堆题栈题通用；  
+支持程序爆破；  
+远端和本地方便切换，libc方便切换，把精力集中在程序本身；  
+调试器支持，使用ida()即可等待ida链接，建议配合https://github.com/anic/ida2pwntools使用 
+添加各种助记信息
+
+
+
+## 一、使用方法-建议环境准备：　　
 ### 1.　把模板和其他常用文件放到/home/yurika/pwnlibc/basetools/ 文件夹（根据实际修改），例如：  
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_111230.png)
 
@@ -26,6 +38,9 @@ source ~/.bashrc
 
 执行GYS：
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113059.png)
+
+## 二、使用方法-模板的使用
+
 
 
 # RGB的其他项目：
