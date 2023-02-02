@@ -9,6 +9,7 @@ ubuntu全版本通用（其他环境没测试）
 支持程序爆破；  
 远端和本地方便切换，libc方便切换，把精力集中在程序本身；  
 调试器支持，使用ida()即可等待ida链接，建议配合https://github.com/anic/ida2pwntools使用   
+调试器支持，使用dbg()即可调用gdb调试。
 添加各种助记信息
 
 
