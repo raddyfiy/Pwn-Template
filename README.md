@@ -1,9 +1,8 @@
-# Pwn-Template
-Pwn Solve Template  
+# Pwn-Template  
+Pwn Solve Template    
 使用方法：　　
-１.　把模板和其他常用文件放到/home/yurika/pwnlibc/basetools/ 文件夹（根据实际修改），例如：
-
-https://uploader.shimo.im/f/oaI3BpAjx2FDbzex.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2NzUzMDg0NzUsImZpbGVHVUlEIjoiTDlrQk1SbEpkZHM5Tm1xSyIsImlhdCI6MTY3NTMwODE3NSwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjoyNjQyODQzNX0.WzRUr7AFQytFdCAFOXl56Z-fgxoQuh3ngQ4sq73z9DE![image](https://user-images.githubusercontent.com/23721787/216223748-99bd8d49-c2ad-41de-8915-31f012a1c4e5.png)
+１.　把模板和其他常用文件放到/home/yurika/pwnlibc/basetools/ 文件夹（根据实际修改），例如：  
+![image]([https://user-images.githubusercontent.com/23721787/216223748-99bd8d49-c2ad-41de-8915-31f012a1c4e5.png](https://github.com/raddyfiy/cod/blob/master/2023-02-02_111230.png))
 
 2. sudo vim ~/.bashrc
 　添加下面的代码到文件里：
