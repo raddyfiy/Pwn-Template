@@ -2,7 +2,7 @@
 Pwn Solve Template    
 使用方法：　　
 １.　把模板和其他常用文件放到/home/yurika/pwnlibc/basetools/ 文件夹（根据实际修改），例如：  
-![image]([https://user-images.githubusercontent.com/23721787/216223748-99bd8d49-c2ad-41de-8915-31f012a1c4e5.png](https://github.com/raddyfiy/cod/blob/master/2023-02-02_111230.png))
+ ![image](https://github.com/raddyfiy/cod/blob/master/2020-03-28_153315.png)
 
 2. sudo vim ~/.bashrc
 　添加下面的代码到文件里：
