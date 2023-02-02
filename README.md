@@ -44,10 +44,10 @@ source ~/.bashrc
  ![image](https://github.com/raddyfiy/cod/blob/master/2023-02-02_113059.png)
 
 ## 二、使用方法-模板的使用
-打开模板后，首先修改最下面的main函数，修改三个地方：  
-
-args1：传入参数，没有就不用修改。参数超过一个，就自行添加变量args2、args3……  
-libclist：前面的libc是写死的，要根据你的实际情况修改。最后一个是本地libc，自动识别，无需修改  
+打开模板后，首先修改最下面的main函数，修改这些地方：  
+remoteurl：远端地址，格式是"ip:port"  
+args1：传入参数，没有就不用修改。参数超过一个，就自行添加变量args2、args3……，同时下面process也得添加。一般不需要改  
+libclist：列表里前几个libc是写死的，要根据你的实际情况修改。最后一个是本地libc，自动识别，无需修改  
 libcindex： 根据下面的libclist列表，选择索引。其中-1表示使用系统libc  
 isremote： 0：本地pwn；非0：远程pwn  
 
